@@ -1,0 +1,35 @@
+{
+    "name": "mouf/utils.i18n.fine.manage.bo",
+    "description": "This package contains the user interface to manage all the fine translation.",
+    "keywords": ["mouf", "i18n", "translation", "manage", "bo"],
+    "homepage": "https://mouf-php.com/mouf/utils.i18n.fine.manage.bo",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marc TEYSSIER",
+            "email": "m.teyssier@thecodingmachine.com",
+            "homepage": "http://mouf-php.com"
+        }
+    ],
+    "require": {
+    	"php": ">=5.4.0",
+    	"mouf/mouf-installer": "~2.0",
+    	"mouf/utils.i18n.fine.common": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mouf\\Utils\\I18n\\Fine\\Manage\\Bo\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "mouf": {
+            "logo": "logo.png",
+			"require-admin" : [
+				"src/ManageBoAdmin.php"
+			]
+        }
+    }
+}
+
