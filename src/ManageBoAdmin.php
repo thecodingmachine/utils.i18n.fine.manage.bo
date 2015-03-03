@@ -19,4 +19,3 @@ $moufManager = MoufManager::getMoufManager();
 $moufManager->declareComponent('manageBo', 'Mouf\\Utils\\I18n\\Fine\\Manage\\Bo\\Controller\\ManageBoController', true);
 $moufManager->bindComponents('manageBo', 'template', 'moufTemplate');
 $moufManager->bindComponents('manageBo', 'content', 'block.content');
-?>

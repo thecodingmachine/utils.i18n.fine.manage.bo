@@ -41,9 +41,8 @@ class ManageBoController extends Controller {
 	 * Displays the create controller page. 
 	 *
 	 * @Action
-	 * @param string $sourcedirectory
-	 * @param string $controllernamespace
-	 * @param string $selfedit
+	 * @param string $name Instance name
+	 * @param string $selfedit Edit mouf or instance project
 	 */
 	public function index($name = null, $selfedit = "false") {
 		$this->selfedit = $selfedit;
@@ -118,4 +117,3 @@ class ManageBoController extends Controller {
 		$this->deleteTranslationFromService($selfedit, $instanceName, $key, $language);
 	}
 }
-?>
