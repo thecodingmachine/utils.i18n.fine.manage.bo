@@ -1,0 +1,70 @@
+#languageListEdition a span.languageValue {
+    padding: 3px;
+}
+#languageListEdition a span.languageSelected {
+    background-color: #CCCCCC;
+    border-radius: 4px;
+}
+#editTranslation {
+    width: 100%;
+    height: 100px;
+}
+#modal-body-content {
+    margin-right: 15px;
+}
+#languageListEdition .label {
+    margin-left: 10px;
+}
+#languageListEdition a {
+    color: black;
+}
+#editTranslationButtonArea {
+    margin-bottom: 15px;
+}
+#editTranslationModal ul#languageList {
+    margin: 0;
+}
+#editTranslationModal ul#languageList li {
+    position: relative;
+}
+#editTranslationModal ul#languageList li a {
+    padding-left: 5px;
+    padding-right: 19px;
+}
+
+#editTranslationModal ul#languageList li.emptyTranslation a {
+    border-bottom: 1px solid #f2d071;
+    background-color: #f9eeb6;
+}
+#editTranslationModal ul#languageList li.emptyTranslation.active a {
+    background-color: #f7e799;
+    border-bottom: 1px solid #f7e799;
+}
+#editTranslationModal ul#languageList li.noTranslation a {
+    border-bottom: 1px solid #b94a48;
+    background-color: #f2dede;
+}
+#editTranslationModal ul#languageList li.noTranslation.active a {
+    background-color: #efb6b6;
+    border: 1px solid #b94a48;
+    border-bottom: 1px solid #efb6b6;
+}
+#editTranslationModal ul#languageList li a.removeLanguage,
+#editTranslationModal ul#languageList li.noTranslation.active a.removeLanguage {
+    position: absolute;
+    top: 9px;
+    right: 2px;
+    border: none;
+    padding: 0;
+}
+a.translationValue {
+    color: black;
+}
+.translationNoValue {
+    font-weight: bold;
+    color: red;
+}
+.translationEmpty {
+    font-weight: bold;
+    color: orange;
+}
