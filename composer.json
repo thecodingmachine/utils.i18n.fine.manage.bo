@@ -28,7 +28,16 @@
             "logo": "logo.png",
 			"require-admin" : [
 				"src/ManageBoAdmin.php"
-			]
+			],
+			"doc" : [{
+                    "title" : "Installation",
+                    "url" : "doc/install.md"
+                },
+                {
+                    "title" : "How to use interface",
+                    "url" : "doc/using_interface.md"
+                }
+            ]
         }
     }
 }

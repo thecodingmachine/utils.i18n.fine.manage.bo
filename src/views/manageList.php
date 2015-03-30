@@ -10,7 +10,7 @@
 		<button ng-click="addNewTranslation()" class="btn btn-primary">Add new translation</button>
 		<div class="pull-right">
 			Select language to display translation in edit mode:
-			
+
 			<select name="displayDefaultLanguage" ng-model="displayDefaultLanguage" ng-options="myValue for (key, myValue) in languages">
 				<option value="">--</option>
 			</select>
@@ -37,7 +37,7 @@
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
 				<h3 id="myModalLabel">Edit: <span ng-show="!newTranslation">{{keyEdit}}</span><input ng-show="newTranslation" type="text" name="keyEdit" ng-model="keyEdit" value="" class="form-control" required="required"/></h3>
-				
+
 			</div>
 			<div class="modal-body">
 				<div ng-show="confirmRemove != null">
@@ -70,7 +70,7 @@
 						<select name="addLanguage" ng-model="addLanguage">
 							<option ng-repeat="(key, value) in possibleLanguages" value="{{key}}" ng-if="!languages[key]">{{value}}</option>
 						</select><br />
-						<button class="btn btn-primary" ng-click="addLanguageToList()">Add</button>	
+						<button class="btn btn-primary" ng-click="addLanguageToList()">Add</button>
 					</div>
 					<span class="label label-warning">Empty</span>
 					<span class="label label-important">No translation</span>
@@ -86,6 +86,6 @@
 				<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
 			</div>
 		</div>
-		
+
 	</div>
 </div>
