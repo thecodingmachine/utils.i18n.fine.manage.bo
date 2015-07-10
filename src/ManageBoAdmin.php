@@ -6,8 +6,8 @@ use Mouf\MoufManager;
 *
 * See the file LICENSE.txt for copying permission.
 */
-require '../../utils.i18n.fine.common/src/Ui/EditTranslationInterface.php';
-require 'Controller/ManageBoController.php';
+//require '../../utils.i18n.fine.common/src/Ui/EditTranslationInterface.php';
+//require 'Controller/ManageBoController.php';
 
 MoufUtils::registerMainMenu('htmlMainMenu', 'HTML', null, 'mainMenu', 40);
 MoufUtils::registerMenuItem('htmlFineMainMenu', 'Fine', null, 'htmlMainMenu', 10);

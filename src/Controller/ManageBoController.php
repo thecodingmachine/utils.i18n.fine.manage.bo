@@ -71,7 +71,7 @@ class ManageBoController extends Controller
      */
     public function getAllTranslation($instanceName, $selfedit = "false")
     {
-        $translations = json_decode($this->getAllMessagesFromService($selfedit, $instanceName));
+        $translations = $this->getAllMessagesFromService($selfedit, $instanceName);
         $invertTranslations = [];
         $languages = [];
         foreach ($translations as $language => $translation) {
